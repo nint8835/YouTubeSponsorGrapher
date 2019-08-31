@@ -1,0 +1,16 @@
+[
+    {
+        "display_name": "The Modern Rogue",
+        "id": "UC42VsoDtra5hMiXZSsD6eGg",
+        "sponsor_regexes": [
+            "Go to https?:\\/\\/([\\w\\.]+)\\/\\w+"
+        ]
+    },
+    {
+        "display_name": "Half as Interesting",
+        "id": "UCuCkxoKLYO_EQ2GeFtbM_bw",
+        "sponsor_regexes": [
+            "at https?:\\/\\/([\\w\\.]+)\\/\\w+"
+        ]
+    }
+]
