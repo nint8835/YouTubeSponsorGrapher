@@ -3,7 +3,7 @@
         "display_name": "The Modern Rogue",
         "id": "UC42VsoDtra5hMiXZSsD6eGg",
         "sponsor_regexes": [
-            "Go to https?:\\/\\/([\\w\\.]+)\\/\\w+"
+            "(?:Go to|at) https?:\\/\\/([\\w\\.]+)\\/\\w+"
         ]
     },
     {
@@ -11,6 +11,21 @@
         "id": "UCuCkxoKLYO_EQ2GeFtbM_bw",
         "sponsor_regexes": [
             "at https?:\\/\\/([\\w\\.]+)\\/\\w+"
+        ]
+    },
+    {
+        "display_name": "Internet Comment Etiquette",
+        "id": "UCyWDmyZRjrGHeKF-ofFsT5Q",
+        "sponsor_regexes": [
+            "Go to https?:\\/\\/([\\w\\.]+)\\/\\w+",
+            "Use my link https?:\\/\\/([\\w\\.]+)\\/\\w+"
+        ]
+    },
+    {
+        "display_name": "Wendover Productions",
+        "id": "UC9RM-iSvTu1uPJb8X5yp3EQ",
+        "sponsor_regexes": [
+            "(?:at|to) https?:\\/\\/([\\w\\.]+)\\/\\w+"
         ]
     }
 ]
