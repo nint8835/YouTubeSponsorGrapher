@@ -3,7 +3,7 @@
         "display_name": "The Modern Rogue",
         "id": "UC42VsoDtra5hMiXZSsD6eGg",
         "sponsor_regexes": [
-            "(?:Go to|at) https?:\\/\\/([\\w\\.]+)\\/\\w+"
+            "(?:Go to |at )?https?:\\/\\/([\\w\\.]+)\\/\\w+"
         ]
     },
     {
@@ -26,6 +26,13 @@
         "id": "UC9RM-iSvTu1uPJb8X5yp3EQ",
         "sponsor_regexes": [
             "(?:at|to) https?:\\/\\/([\\w\\.]+)\\/\\w+"
+        ]
+    },
+    {
+        "display_name": "Smarter Every Day",
+        "id": "UC6107grRI4m0o2-emgoDnAA",
+        "sponsor_regexes": [
+            "(?:Get|at).*https?:\\/\\/([\\w\\.]+)\\/\\w+"
         ]
     }
 ]

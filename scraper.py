@@ -5,7 +5,19 @@ import re
 from dotenv import load_dotenv
 from googleapiclient.discovery import build
 
-blacklisted_sponsors = {"patreon", "bit.ly"}
+blacklisted_sponsors = [
+    "patreon.com",
+    "bit.ly",
+    "youtu.be",
+    "adfarm.mediaplex.com",
+    "clik.cc",
+    "on.fb.me",
+    "youtube.com",
+    "goo.gl",
+    "smartereveryday.com",
+    "globalreefrecord.com",
+    "code.org"
+]
 
 load_dotenv()
 
@@ -14,9 +26,12 @@ client = build("youtube", "v3", developerKey=os.environ["YOUTUBE_API_KEY"])
 with open("channels.json") as f:
     channels = json.load(f)
 
-sponsors = {}
+with open("sponsors.json") as f:
+    sponsors = json.load(f)
 
 for channel in channels:
+    if channel["display_name"] in sponsors:
+        continue
     sponsors[channel["display_name"]] = []
     channel_videos = []
     results = (
@@ -48,8 +63,8 @@ for channel in channels:
             if (
                 sponsor
                 and sponsor not in sponsors[channel["display_name"]]
-                and not any(
-                    sponsor in blacklisted_sponsor
+                and all(
+                    sponsor not in blacklisted_sponsor
                     for blacklisted_sponsor in blacklisted_sponsors
                 )
             ):
