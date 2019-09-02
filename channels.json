@@ -62,5 +62,12 @@
         "sponsor_regexes": [
             "https?:\\/\\/([\\w\\.]+)\\/\\w+"
         ]
+    },
+    {
+        "display_name": "Vsauce2",
+        "id": "UCqmugCqELzhIMNYnsjScXXw",
+        "sponsor_regexes": [
+            "https?:\\/\\/([\\w\\.]+)\\/\\w+"
+        ]
     }
 ]
