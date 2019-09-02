@@ -34,5 +34,33 @@
         "sponsor_regexes": [
             "(?:Get|at).*https?:\\/\\/([\\w\\.]+)\\/\\w+"
         ]
+    },
+    {
+        "display_name": "Sam O'Nella Academy",
+        "id": "UC1DTYW241WD64ah5BFWn4JA",
+        "sponsor_regexes": [
+            "https?:\\/\\/([\\w\\.]+)\\/\\w+"
+        ]
+    },
+    {
+        "display_name": "Jay Foreman",
+        "id": "UCbbQalJ4OaC0oQ0AqRaOJ9g",
+        "sponsor_regexes": [
+            "https?:\\/\\/([\\w\\.]+)\\/\\w+"
+        ]
+    },
+    {
+        "display_name": "hbomberguy",
+        "id": "UClt01z1wHHT7c5lKcU8pxRQ",
+        "sponsor_regexes": [
+            "https?:\\/\\/([\\w\\.]+)\\/\\w+"
+        ]
+    },
+    {
+        "display_name": "JonTron",
+        "id": "UCdJdEguB1F1CiYe7OEi3SBg",
+        "sponsor_regexes": [
+            "https?:\\/\\/([\\w\\.]+)\\/\\w+"
+        ]
     }
 ]

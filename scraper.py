@@ -16,7 +16,22 @@ blacklisted_sponsors = [
     "goo.gl",
     "smartereveryday.com",
     "globalreefrecord.com",
-    "code.org"
+    "code.org",
+    "twitter.com",
+    "magicicada.org",
+    "ow.ly",
+    "sohotheatre.com",
+    "pleasance.co.uk",
+    "twitch.tv",
+    "curiouscat.me",
+    "clik.cc",
+    "influencerlink.org",
+    "normalboots.com",
+    "theyetee.com",
+    "itunes.apple.com",
+    "facebook.com",
+    "represent.com",
+    "clickmeterlink.com",
 ]
 
 load_dotenv()

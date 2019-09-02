@@ -16,5 +16,5 @@ for pair in sponsor_pairs:
     graph.add_edge(*pair)
 
 agraph = nx.nx_agraph.to_agraph(graph)
-agraph.layout("sfdp")
+agraph.layout("neato", args="-Goverlap=false -Gsplines=true")
 agraph.draw("sponsors.png")
