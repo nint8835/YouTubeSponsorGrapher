@@ -1,1 +1,128 @@
-{"The Modern Rogue": ["getroman.com", "privacy.com", "buyraycon.com", "squarespace.com", "nordvpn.com", "curiositystream.com", "hullopillow.com", "rhone.com", "skl.sh", "simplecontacts.com", "experian.com", "petalcard.com", "keeps.com", "audible.com", "bombfell.com", "cook.ba", "nxtg.ms", "radpowerbikes.com", "crunchyroll.com", "dollarshaveclub.com"], "Half as Interesting": ["dashlane.com", "skl.sh", "audible.com", "curiositystream.com", "brilliant.org", "hover.com", "dollarshaveclub.com", "wix.com", "squarespace.com", "sg.app.link"], "Internet Comment Etiquette": ["vrv.co", "nordvpn.com", "privacy.com"], "Wendover Productions": ["brilliant.org", "awaytravel.com", "skl.sh", "curiositystream.com", "hover.com", "audible.com", "wix.com", "dashlane.com", "squarespace.com", "cook.ba", "clearme.com"], "Smarter Every Day": ["audible.com", "expressvpn.com", "wix.com", "casper.com", "23andme.com", "kiwico.com"], "Sam O'Nella Academy": ["audible.com", "curiositystream.com", "skl.sh", "dashlane.com", "wix.com", "brilliant.org"], "Jay Foreman": ["nordvpn.com", "skl.sh"], "hbomberguy": ["skl.sh", "curiositystream.com"], "JonTron": ["expressvpn.com", "joinhoney.com", "dollarshaveclub.com", "audible.com", "lootcrate.com", "crunchyroll.com", "lynda.com", "hrys.co"], "Vsauce2": ["expressvpn.com"], "Knowing Better": ["skl.sh", "curiositystream.com", "audible.com"], "Michael Reeves": ["joinhoney.com", "nordvpn.com", "skl.sh", "brilliant.org"], "Internet Historian": ["nordvpn.com", "curiositystream.com", "dashlane.com"]}
+{
+    "Half as Interesting": [
+        "dashlane.com",
+        "skl.sh",
+        "audible.com",
+        "curiositystream.com",
+        "brilliant.org",
+        "hover.com",
+        "dollarshaveclub.com",
+        "wix.com",
+        "squarespace.com",
+        "sg.app.link"
+    ],
+    "Internet Comment Etiquette": [
+        "vrv.co",
+        "nordvpn.com",
+        "privacy.com"
+    ],
+    "Internet Historian": [
+        "nordvpn.com",
+        "curiositystream.com",
+        "dashlane.com"
+    ],
+    "Jay Foreman": [
+        "nordvpn.com",
+        "skl.sh"
+    ],
+    "JonTron": [
+        "expressvpn.com",
+        "joinhoney.com",
+        "dollarshaveclub.com",
+        "audible.com",
+        "lootcrate.com",
+        "crunchyroll.com",
+        "lynda.com",
+        "hrys.co"
+    ],
+    "Knowing Better": [
+        "skl.sh",
+        "curiositystream.com",
+        "audible.com"
+    ],
+    "Mark Rober": [
+        "bose.life",
+        "nordvpn.com",
+        "wix.com",
+        "portalfb.me",
+        "brilliant.org",
+        "audible.com"
+    ],
+    "Michael Reeves": [
+        "joinhoney.com",
+        "nordvpn.com",
+        "skl.sh",
+        "brilliant.org"
+    ],
+    "MrMobile": [
+        "dbrand.com",
+        "surfshark.com",
+        "skl.sh",
+        "dollarshaveclub.com",
+        "empower.me",
+        "audible.com",
+        "bombfell.com",
+        "tunnelbear.com",
+        "nordvpn.com",
+        "adblockbrowser.to",
+        "squarespace.com"
+    ],
+    "Sam O'Nella Academy": [
+        "audible.com",
+        "curiositystream.com",
+        "skl.sh",
+        "dashlane.com",
+        "wix.com",
+        "brilliant.org"
+    ],
+    "Smarter Every Day": [
+        "audible.com",
+        "expressvpn.com",
+        "wix.com",
+        "casper.com",
+        "23andme.com",
+        "kiwico.com"
+    ],
+    "The Modern Rogue": [
+        "getroman.com",
+        "privacy.com",
+        "buyraycon.com",
+        "squarespace.com",
+        "nordvpn.com",
+        "curiositystream.com",
+        "hullopillow.com",
+        "rhone.com",
+        "skl.sh",
+        "simplecontacts.com",
+        "experian.com",
+        "petalcard.com",
+        "keeps.com",
+        "audible.com",
+        "bombfell.com",
+        "cook.ba",
+        "nxtg.ms",
+        "radpowerbikes.com",
+        "crunchyroll.com",
+        "dollarshaveclub.com"
+    ],
+    "Vsauce2": [
+        "expressvpn.com"
+    ],
+    "Wendover Productions": [
+        "brilliant.org",
+        "awaytravel.com",
+        "skl.sh",
+        "curiositystream.com",
+        "hover.com",
+        "audible.com",
+        "wix.com",
+        "dashlane.com",
+        "squarespace.com",
+        "cook.ba",
+        "clearme.com"
+    ],
+    "hbomberguy": [
+        "skl.sh",
+        "curiositystream.com"
+    ]
+}

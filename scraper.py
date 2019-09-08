@@ -36,7 +36,12 @@ blacklisted_sponsors = [
     "forms.gle",
     "astore.amazon.com",
     "visualstudio.com",
+    "tinyurl.com",
+    "amzn.to",
+    "androidcentral.com",
 ]
+
+renames = [("surfshark.deals", "surfshark.com")]
 
 load_dotenv()
 
@@ -79,6 +84,8 @@ for channel in channels:
             sponsor = re.findall(regex, video["snippet"]["description"])
             if sponsor:
                 sponsor = sponsor[0].lower().replace("www.", "")
+            for rename in renames:
+                sponsor = sponsor.replace(*rename)
             if (
                 sponsor
                 and sponsor not in sponsors[channel["display_name"]]
@@ -90,4 +97,4 @@ for channel in channels:
                 sponsors[channel["display_name"]].append(sponsor)
 
 with open("sponsors.json", "w") as f:
-    json.dump(sponsors, f)
+    json.dump(sponsors, f, indent=4, sort_keys=True)

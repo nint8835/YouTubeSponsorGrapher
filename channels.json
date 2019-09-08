@@ -90,5 +90,19 @@
         "sponsor_regexes": [
             "https?:\\/\\/([\\w\\.]+)\\/\\w+"
         ]
+    },
+    {
+        "display_name": "Mark Rober",
+        "id": "UCY1kMZp36IQSyNx_9h4mpCg",
+        "sponsor_regexes": [
+            "https?:\\/\\/([\\w\\.]+)\\/\\w+"
+        ]
+    },
+    {
+        "display_name": "MrMobile",
+        "id": "UCSOpcUkE-is7u7c4AkLgqTw",
+        "sponsor_regexes": [
+            "https?:\\/\\/([\\w\\.]+)\\/\\w+"
+        ]
     }
 ]
