@@ -32,6 +32,10 @@ blacklisted_sponsors = [
     "facebook.com",
     "represent.com",
     "clickmeterlink.com",
+    "standard.tv",
+    "forms.gle",
+    "astore.amazon.com",
+    "visualstudio.com",
 ]
 
 load_dotenv()

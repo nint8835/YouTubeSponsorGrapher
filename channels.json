@@ -69,5 +69,26 @@
         "sponsor_regexes": [
             "https?:\\/\\/([\\w\\.]+)\\/\\w+"
         ]
+    },
+    {
+        "display_name": "Knowing Better",
+        "id": "UC8XjmAEDVZSCQjI150cb4QA",
+        "sponsor_regexes": [
+            "https?:\\/\\/([\\w\\.]+)\\/\\w+"
+        ]
+    },
+    {
+        "display_name": "Michael Reeves",
+        "id": "UCtHaxi4GTYDpJgMSGy7AeSw",
+        "sponsor_regexes": [
+            "https?:\\/\\/([\\w\\.]+)\\/\\w+"
+        ]
+    },
+    {
+        "display_name": "Internet Historian",
+        "id": "UCR1D15p_vdP3HkrH8wgjQRw",
+        "sponsor_regexes": [
+            "https?:\\/\\/([\\w\\.]+)\\/\\w+"
+        ]
     }
 ]
